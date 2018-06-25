@@ -15,7 +15,7 @@ header.header-content {
     background-color:#737793;
 }
 
-section.section-content {
+main.main-content {
     position: relative;
     width: 100%;
     height: calc(100% - 50px);
