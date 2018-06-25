@@ -6,3 +6,6 @@ dist/
 
 # ignore bower
 /bower_modules/
+
+# package-lock.json
+package-lock.json 
