@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 /** Import main SCSS */
 import "./sass/style.scss";
 
-import AppLayout from "./components/app-layout";
+import AppLayout from "./components/Layout";
 
 class Application extends PureComponent
 {

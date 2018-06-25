@@ -1,9 +1,9 @@
 import React, { PureComponent } from "react";
 
-import HeaderSection from "./view-fragments/header-section";
-import LayerSection from "./view-fragments/layer-section"
-import StatisticSection from "./view-fragments/statistic-section";
-import MapView from "./map/map";
+import HeaderSection from "./HeaderSection";
+import LayerSection from "./LayerSection"
+import StatisticSection from "./StatisticLayout";
+import MapView from "../Map";
 
 class AppLayout extends PureComponent {
     render() {
