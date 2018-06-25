@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import esriLoader from "esri-loader";
 
 import AppConstants from "../../constants/app-constant";
 
-class MapView extends Component {
+class MapView extends PureComponent {
 
     constructor() {
         super();

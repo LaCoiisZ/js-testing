@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import ReactDOM from "react-dom";
 
 /** Import main SCSS */
@@ -6,7 +6,7 @@ import "./sass/style.scss";
 
 import AppLayout from "./components/app-layout";
 
-class Application extends Component
+class Application extends PureComponent
 {
     render() {
         return (

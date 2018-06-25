@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
 import HeaderSection from "./view-fragments/header-section";
 import LayerSection from "./view-fragments/layer-section"
 import StatisticSection from "./view-fragments/statistic-section";
 import MapView from "./map/map";
 
-class AppLayout extends Component {
+class AppLayout extends PureComponent {
     render() {
         return (
             <main className="main-content">

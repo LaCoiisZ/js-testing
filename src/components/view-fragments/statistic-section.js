@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-class StatisticSection extends Component {
+class StatisticSection extends PureComponent {
     render() {
         return (
             <section className="section-statistic"></section>

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-class HeaderSection extends Component {
+class HeaderSection extends PureComponent {
     render() {
         return (
             <header className="header-content"></header>
